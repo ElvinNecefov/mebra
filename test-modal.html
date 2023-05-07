@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="modal fade bd-example-modal-lg careers-modal show" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="vacancyModal" style="padding-right: 17px;display: block;">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">X</span>
+                </button>
+            </div>
+            <h3 class="careers-modal-title">
+                Baş mühasib
+            </h3>
+            <form action="https://azerblast.az/karyera/vakansiyalar/send/vacancy" method="POST" class="row align-items-center justify-content-between " enctype="multipart/form-data">
+                <input type="hidden" name="_token" value="AOLMwjK64dCh0wJLReww1vc6UQbgVqpo7Ee0VYHH">                <input type="hidden" name="vacancy_id" value="15">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 mb-3">
+                            <h4 class="careers-form-title">CV</h4>
+                            <p class="careers-form-subtitle">CV faylını yükləyin</p>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-3">
+                            <div class="careers-from-docs text-center">
+                                <label for="files" onclick="displayfilename()" style="border:2px solid; color:#347af6; border-radius:20px; padding:1rem 1.5rem;" class="btn btn-default" id="tester">Sənəd əlavə et</label>
+
+                                <input id="files" type="file" name="resume" required="" style="display:none;">
+
+                                <h4 class="careers-form-title"> </h4>
+                                <p class="careers-form-subtitle">PDF, DOC, DOCX, maks 2 mb</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pt-5 pb-3">
+                    <div class="row align-items-start">
+                        <div class="col-12 col-lg-6 mb-3">
+                            <h4 class="careers-form-title">Şəxsi məlumatlar</h4>
+                            <p class="careers-form-subtitle">Şəxsi məlumatlarınızı daxil edin</p>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-3">
+                            <div class="careers-modal-input">
+                                <input type="text" placeholder="Ad*" name="name" required="">
+                                <input type="text" placeholder="Soyad*" name="lastname" required="">
+                                <input type="email" placeholder="E-poçt*" name="email" required="">
+                                <input type="text" placeholder="Əlaqə nömrəsi" name="phone" required="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 mt-3">
+                    <div class="careers-modal-check  aling-items-center d-none">
+
+                        <input type="checkbox" class="careers-checkbox" checked="" name="check">
+
+                        <p class="careers-modal-check-title m-auto">
+                            <strong><a href="https://azerblast.az/karyera">işə qəbul qaydaları ilə tanışam və razıyam</a></strong>
+
+                        </p>
+                    </div>
+                    <button type="submit" class="page-careers-search-btn">Müraciət et</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>

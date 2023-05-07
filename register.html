@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qeydiyyat - Mebra.az</title>
+    <!-- all css here -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!-- Section Register Start -->
+    <section class="container-form forms">
+        <div class="form-logo">
+            <figure>
+                <img src="./assets/images/logo/header-logo.png" alt="header-logo">
+            </figure>
+        </div>
+
+            <div class="form-register">
+                <div class="register-content d-flex justify-content-center align-items-center">
+                   <a href="login.html">Giriş</a>
+                   <a href="register.html">Qeydiyyatdan keç</a>
+                </div>
+            </div>
+
+            <div class="register-text d-flex justify-content-center align-items-center">
+                <span>Kim olaraq qeydiyyatdan keçirsiniz ?</span>
+            </div>
+    
+            <div class="container form-fields">
+                <div class="row">
+                    <div class="col-lg-12 d-flex justify-content-center align-items-center">
+                        <form action="#" class="form">
+
+                            <div class="field select-field">
+                                <select name="persons" id="mySelect" onchange="showRegister()">
+                                    <option value="person">Fiziki şəxs</option>
+                                    <option value="company">Mağaza / salon</option>
+                                </select>
+                            </div>
+
+                            <div class="register-person">
+                                <div class="field register-field">
+                                    <input type="text" name="text" placeholder="Ad və Soyad *" class="text">
+                                </div>
+        
+                                <div class="field register-field">
+                                    <input type="email" name="email" placeholder="E-mail ünvanı *" class="email">
+                                </div>
+    
+                                <div class="field register-field">
+                                    <input type="number" name="text" placeholder="Telefon nömrəsi daxil edin *" class="number">
+                                </div>
+        
+                                <div class="field register-field">
+                                    <input type="password" name="password" placeholder="Şifrənizi daxil edin *" class="password">
+                                    <i class='bx bx-hide eye-icon eye-icon-person'></i>
+                                </div>
+    
+                                <div class="field register-field">
+                                    <input type="text" name="text" placeholder="Ünvanı  daxil edin *" class="text">
+                                </div>
+        
+                                <div class="field-button">
+                                    <a href="register-select.html">Qeydiyyatdan keçin</a>
+                                </div>
+        
+                                <div class="field-span">
+                                    <span>Qeydiyyatınız varsa</span>
+                                    <button type="submit">Daxil olun</button>
+                                </div>
+                            </div>
+
+                            <div class="register-company">
+                                <div class="field register-field">
+                                    <input type="text" name="text" placeholder="Şirkət adını daxil edin *" class="text">
+                                </div>
+        
+                                <div class="field register-field">
+                                    <input type="email" name="email" placeholder="E-mail ünvanı *" class="email">
+                                </div>
+    
+                                <div class="field register-field">
+                                    <input type="number" name="text" placeholder="Telefon nömrəsi daxil edin *" class="number">
+                                </div>
+        
+                                <div class="field register-field">
+                                    <input type="password" name="password" placeholder="Şifrənizi daxil edin *" class="password">
+                                    <i class='bx bx-hide eye-icon eye-icon-company'></i>
+                                </div>
+    
+                                <div class="field register-field">
+                                    <textarea name="textarea" id="" placeholder="Şirkət haqqında əlavə məlumat qeyd edin ( max 250 simvol )"  maxlength="250" cols="65" rows="5"></textarea>
+                                </div>
+    
+                                <div class="field register-field">
+                                    <input type="text" name="text" placeholder="Ünvanı  daxil edin *" class="text">
+                                </div>
+    
+                                <div class="field register-field">
+                                    <input type="file" id="file" name="text" class="file">
+                                    <label for="file">Loqonuzu daxil edin ( 200px x 200 px )</label>
+                                </div>
+        
+                                <div class="field-button">
+                                    <a href="register-select.html">Qeydiyyatdan keçin</a>
+                                </div>
+        
+                                <div class="field-span">
+                                    <span>Qeydiyyatınız varsa</span>
+                                    <button type="submit">Daxil olun</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section Register End -->
+
+
+
+    
+
+
+    <!-- all js here -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous">
+    </script>
+    <script src="./assets/js/register.js"></script>
+</body>
+
+</html>
